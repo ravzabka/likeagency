@@ -1,0 +1,18 @@
+.btn {
+    display: inline-block;
+    flex-basis: center;
+    border: 2px solid $whiteColor;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: $whiteColor;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 18px 50px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: $darkBlue;
+        background: $whiteColor;
+    }
+}
